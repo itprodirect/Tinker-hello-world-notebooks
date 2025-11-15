@@ -1,0 +1,6 @@
+jupyter
+python-dotenv==1.0.1
+transformers==4.57.1
+tinker==0.3.0  # or the actual client name once you confirm from docs
+pandas==2.3.3
+numpy==2.3.4

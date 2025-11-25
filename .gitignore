@@ -1,6 +1,19 @@
-.venv/
-__pycache__/
 .ipynb_checkpoints/
-.env
 *.pyc
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Environments / secrets
+.venv/
+.env
+.env.*
+
+# W&B
+wandb/
+
+# Data
+data/piglatin/full/
+

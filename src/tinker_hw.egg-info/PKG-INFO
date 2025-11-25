@@ -1,7 +1,0 @@
-Metadata-Version: 2.4
-Name: tinker-hw
-Version: 0.1.0
-Summary: Tinker hello-world notebooks utilities (datasets, logging, helpers)
-Requires-Python: >=3.10
-License-File: LICENSE
-Dynamic: license-file

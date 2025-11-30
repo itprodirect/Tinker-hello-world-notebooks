@@ -47,6 +47,24 @@ Welcome to a tiny, beginner-friendly playground for the [Tinker](https://github.
 3. Move on to `notebooks/01_tinker_hello_LoRA_world.ipynb`. The first markdown cell acts as a mini tutorial—follow it step-by-step to configure a service client, choose a base model, and kick off a LoRA run.
 4. Keep everything in order: run cells sequentially so credentials are loaded before you interact with the service.
 
+## Notebooks
+
+- `00_check_env.ipynb` – Verify environment, install deps.
+- `01_tinker_hello_LoRA_world.ipynb` – Original Tinker LoRA hello world.
+- `02_basketball_prompt_distill.ipynb` – Basketball prompt distillation example.
+- `03_tinker_hello_LoRA_piglatin_wandb.ipynb` – Pig Latin LoRA fine-tune with W&B logging.
+
+### How to run the Pig Latin + W&B demo
+
+1. Create and activate the virtualenv.
+2. Install requirements: `pip install -r requirements.txt`.
+3. Start JupyterLab in the repo.
+4. Run `00_check_env.ipynb`.
+5. Open `03_tinker_hello_LoRA_piglatin_wandb.ipynb` and:
+   - Run all cells top to bottom.
+   - Make sure `USE_WANDB = True` and you’re logged into W&B.
+6. Watch the run under the `tinker-hello-world` project in your W&B workspace.
+
 ## Troubleshooting tips
 
 - **Missing API key?** Double-check `.env` and re-run `python test_env.py`.

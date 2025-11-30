@@ -54,16 +54,12 @@ Welcome to a tiny, beginner-friendly playground for the [Tinker](https://github.
 - `02_basketball_prompt_distill.ipynb` – Basketball prompt distillation example.
 - `03_tinker_hello_LoRA_piglatin_wandb.ipynb` – Pig Latin LoRA fine-tune with W&B logging.
 
-### How to run the Pig Latin + W&B demo
+## 03_tinker_hello_LoRA_piglatin_wandb.ipynb
 
-1. Create and activate the virtualenv.
-2. Install requirements: `pip install -r requirements.txt`.
-3. Start JupyterLab in the repo.
-4. Run `00_check_env.ipynb`.
-5. Open `03_tinker_hello_LoRA_piglatin_wandb.ipynb` and:
-   - Run all cells top to bottom.
-   - Make sure `USE_WANDB = True` and you’re logged into W&B.
-6. Watch the run under the `tinker-hello-world` project in your W&B workspace.
+- Fine-tunes `BASE_MODEL` on a small Pig Latin dataset using LoRA.
+- Logs training metrics to Weights & Biases (W&B).
+- Demonstrates a simple sampling client to test the adapter.
+- Uses config variables at the top so you can easily swap models or tweak LoRA params.
 
 ## Troubleshooting tips
 

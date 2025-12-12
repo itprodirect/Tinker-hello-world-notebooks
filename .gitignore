@@ -11,8 +11,18 @@ __pycache__/
 .env
 .env.*
 
-# W&B
+# W&B local run logs
 wandb/
+notebooks/wandb/
+**/wandb/
+
+# local experiment outputs
+results/
+notebooks/results/
+notebooks/wandb/
+wandb/
+
+
 
 # Data
 data/piglatin/full/

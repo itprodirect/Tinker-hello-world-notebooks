@@ -16,6 +16,13 @@ wandb/
 notebooks/wandb/
 **/wandb/
 
+# local experiment outputs
+results/
+notebooks/results/
+notebooks/wandb/
+wandb/
+
+
 
 # Data
 data/piglatin/full/
